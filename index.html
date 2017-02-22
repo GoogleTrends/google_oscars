@@ -1,0 +1,668 @@
+<!doctype html>
+<html lang="en" data-version="1487767488917">
+<head>
+	<title>Mapping America’s Taste in Oscar Films</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+	<meta name="news_keywords" content="">
+	
+	  <meta property="og:title" content="Mapping America’s Taste in Oscar Films">
+	  <meta property="og:site_name" content="Google News Lab">
+	  <meta property="og:url" content="https://googletrends.github.io/google_oscars">
+	  <meta property="og:description" content="Where this year’s Oscar-nominated movies are most popular, across 3,000 U.S. counties">
+	  <meta property="og:type" content="article">
+	  <meta property="og:locale" content="en_US">
+	
+	  <meta property="og:image" content="https://googletrends.github.io/google_oscars/assets/download/preview_oscars.png">
+	  <meta property="og:image:type" content="image/png">
+	  <meta property="og:image:width" content="1200">
+	  <meta property="og:image:height" content="600">
+	
+	  <meta name="twitter:card" content="summary_large_image">
+	  <meta name="twitter:site" content="@googlenewslab">
+	  <meta name="twitter:creator" content="@googlenewslab">
+	  <meta name="twitter:title" content="Mapping America’s Taste in Oscar Films">
+	  <meta name="twitter:description" content="Where this year’s Oscar-nominated movies are most popular, across 3,000 U.S. counties">
+	  <meta name="twitter:image:src" content="https://googletrends.github.io/google_oscars/assets/download/preview_oscars.png">
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+
+		<style>*{box-sizing:border-box}a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}body,html{height:100%}a img{border:none}blockquote{quotes:none}blockquote:after,blockquote:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}caption,td,th{text-align:left;font-weight:400;vertical-align:middle}html{-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%}body{font-feature-settings:'kern' 1,'onum' 1,'liga' 0}b,strong{font-weight:700}em,i{font-style:italic}ul{list-style-type:none}img,video{display:block;width:100%}button{cursor:pointer;border:none;outline:0;margin:0;padding:0;font-size:1rem}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}.hide-accessible{width:1px;height:1px;overflow:hidden;position:absolute}.hide-invisible{visibility:hidden}.hide-display{display:none}header{position:absolute;top:1em;left:1em;text-align:center;z-index:3000}header a.logo{overflow:hidden;zoom:1;border-bottom:none;display:block}header a.logo .logo__text{text-transform:uppercase;color:#2a2a2a;display:inline-block;float:left;text-align:left;line-height:1;margin:0;padding:0;line-height:42px;font-size:14px;margin-left:14px}header a.logo .logo__svg{width:42px;height:42px;fill:#2a2a2a;float:left}footer{margin-top:2rem;background-color:#efefef;padding:1rem}footer .logo__google{margin-top:2rem}.footer-social{padding-bottom:.5rem;margin:0 auto;margin-bottom:1rem;max-width:100%;text-align:left;font-size:.8rem;display:block;border-bottom:1px solid #ccc}.footer-social__preach{display:block;padding:0;margin-right:.5em;text-transform:uppercase;letter-spacing:.05em;font-weight:500}.footer-social__icons{display:inline-block;vertical-align:middle;margin-top:1em;overflow:hidden;zoom:1}.footer-social__icon{float:left;margin:0;padding:0;line-height:1;margin-right:.5em;display:inline-block}.outro{margin-top:2rem;max-width:40rem}.outro p{font-size:.9rem}.outro .outro__hed{font-size:.75em;font-weight:500;text-transform:uppercase;margin-top:1rem;margin-bottom:.5rem;letter-spacing:.05em}.outro strong{font-weight:500}.outro a{color:#000}.graphic__categories{padding:1rem}.graphic__categories .categories__intro{max-width:40rem;margin:1rem auto}.graphic__categories .categories__hed{font-size:1.5rem;font-weight:400}.graphic__categories .chart__choices{display:none;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;max-width:60rem;margin:1rem auto}.graphic__categories .chart__choices li{color:#2a2a2a;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;cursor:pointer;background:#efefef;line-height:1;padding:.5em .75em;margin:.5em;transition:all 250ms;border-radius:2rem;border:none;background-color:#f1f1f1;text-transform:capitalize;font-weight:400}.graphic__categories .chart__choices li:hover{background-color:#f4f4be}.graphic__categories .chart__choices li.is-active{background-color:#666;color:#fff}.graphic__categories .mobile__choices{text-align:center;margin-bottom:1rem}.graphic__categories .chart__choices--mobile{text-transform:capitalize;letter-spacing:.05em;font-size:.9rem;font-weight:700;color:#666;height:2rem;border-radius:2px}.graphic__categories .chart__films{max-width:80rem;margin:0 auto;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:center;align-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap}.graphic__categories .film{max-width:20rem;padding:1rem .25rem;width:50%}.graphic__categories .film__title{text-align:center;font-weight:400;font-size:.9rem;line-height:1.2}.graphic__categories .film__name{text-align:center;font-size:.85rem;font-weight:400;color:#888;margin-bottom:.5rem}.graphic__narrative .film{margin:0 auto;margin-bottom:6rem;-ms-flex-direction:column;flex-direction:column;display:-ms-flexbox;display:flex;position:relative}.graphic__narrative .film__info{padding:0 1rem;max-width:480px;margin:1rem auto;-ms-flex-order:1;order:1}.graphic__narrative .film__title{font-size:2rem;line-height:1;color:#2a2a2a;font-weight:300;line-height:1;margin-top:5rem;margin-bottom:1rem;display:block;width:100%;text-align:center;padding:0 .5rem}.graphic__narrative .film__text{font-size:1rem;margin-bottom:2rem}.graphic__narrative .film__text span{cursor:pointer;transition:background-color .1s;line-height:1;background-color:#f9f}.graphic__narrative .film__map{position:relative;-ms-flex-order:0;order:0;max-width:840px;margin-top:2rem;padding:0 .75rem}.graphic__narrative .film__youtube{margin-bottom:1rem;text-align:center;display:none}.graphic__narrative .map__img{position:relative}.graphic__narrative .map__annotation{position:absolute;top:0;left:0;-ms-transform-origin:50% 50%;transform-origin:50% 50%;animation:rotate 8s linear infinite;transition:all 350ms;cursor:pointer}.graphic__narrative .map__annotation.is-active{animation:rotate 32s linear infinite;opacity:.66}.graphic__narrative .map__annotation.is-active .annotation__circle{-ms-transform:scale(2,2);transform:scale(2,2);box-shadow:inset 0 0 1em .25em rgba(255,0,255,0)}.graphic__narrative .annotation__circle{-ms-transform:scale(2,2);transform:scale(2,2);position:absolute;width:100%;height:100%;border-radius:50%;border:1px dashed #f0f;transition:transform 350ms}.graphic__narrative .map__below{display:-ms-flexbox;display:flex;-ms-flex-align:center;align-items:center;margin-top:3rem;-ms-flex-pack:center;justify-content:center;-ms-flex-direction:column;flex-direction:column}.graphic__narrative .map__key{font-size:.85rem;width:260px;margin-bottom:1rem}.graphic__narrative .map__tweet a{color:#2a2a2a;font-size:.75rem;letter-spacing:.05em;text-transform:uppercase;cursor:pointer;background:#efefef;line-height:1;padding:.5em .75em;margin:.5em;transition:all 250ms;border-radius:2rem;border:none;background-color:#f1f1f1;font-weight:500}.graphic__narrative .map__tweet a:hover{background-color:#f4f4be;color:#2a2a2a}.graphic__narrative .map__tweet a.is-active{background-color:#666;color:#fff}.graphic__narrative .map__tweet .tweet__button svg{width:1rem;height:1rem;vertical-align:text-bottom}.graphic__narrative .map__tweet .download__button{border:none;display:inline-block}.graphic__narrative .map__tweet .download__button svg{width:2rem;height:2rem;vertical-align:bottom}.graphic__narrative .map__tweet .download__button svg text{display:none}.graphic__narrative .key__hed{margin-bottom:.25rem;text-align:left;text-transform:uppercase;font-weight:600;font-size:.7rem;color:#999;letter-spacing:.05em}.graphic__narrative .key__svg{margin:0 auto}.graphic__narrative .key__label{position:relative;margin-top:.25rem;height:1rem;text-transform:uppercase;font-size:.9em;font-weight:500;text-transform:capitalize}.graphic__narrative .key__label p{position:absolute;line-height:1;height:1rem;padding-left:1px}.graphic__narrative .key__label .label__more{left:50px;text-transform:capitalize}.graphic__narrative .key__label .label__less{left:2px;text-transform:capitalize}#arrow path{fill:#999}.swoopy path{fill:none;stroke:#999}.swoopy text{fill:#2a2a2a;font-size:12px;stroke:none}@keyframes rotate{0%{transform:rotate(0)}100%{transform:rotate(360deg)}}@keyframes blink{0%{background-color:rgba(255,255,255,.1)}100%{background-color:rgba(255,255,255,.5)}}.graphic__regional{padding:1rem}.graphic__regional .regional__intro{max-width:40rem;margin:1rem auto}.graphic__regional .regional__hed{font-size:1.5rem;font-weight:400}.graphic__regional .chart__categories{max-width:70rem;margin:0 auto;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:start;align-content:flex-start;-ms-flex-align:start;align-items:flex-start;-ms-flex-wrap:wrap;flex-wrap:wrap}.graphic__regional .category{width:100%;padding:.5rem}.graphic__regional .category__title{text-align:center;font-size:.8rem;font-weight:600;color:#888;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.05em}.graphic__regional .category__title:after{content:'';width:12rem;display:block;margin:0 auto;padding-top:.25rem;border-bottom:1px dashed #ccc}.graphic__regional .films{display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-line-pack:start;align-content:flex-start;-ms-flex-align:start;align-items:flex-start;-ms-flex-wrap:wrap;flex-wrap:wrap}.graphic__regional .film{padding:1rem .25rem;width:50%}.graphic__regional .film__title{text-align:center;font-weight:400;font-size:.9rem;line-height:1.2;margin-bottom:.5rem}.graphic__regional .film__name{text-align:center;font-size:.85rem;font-weight:400;color:#888;margin-bottom:.5rem}.graphic__smooth .film{margin:5rem auto;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;width:1150px}.graphic__smooth .film__info{width:300px}.graphic__smooth .film__title{text-transform:uppercase;font-size:1.5rem;line-height:1;color:#2a2a2a;letter-spacing:.05em;font-weight:400;line-height:1.2;margin-bottom:.5rem;display:inline-block}.graphic__smooth .map__svg{background:#fff}.graphic__smooth .county{stroke-width:.5px;stroke-opacity:1}.graphic__smooth .state{fill:#fff;fill-opacity:0;cursor:pointer}.graphic__smooth .outline--state{fill:none;stroke:#fff;stroke-width:2px;stroke-opacity:.75}.graphic__smooth .map__key{font-size:.85rem;width:250px;margin:0 auto}.graphic__smooth .key__hed{margin-bottom:.25rem;text-align:center;font-weight:500;color:#666}.graphic__smooth .key__label{position:relative;margin-top:.25rem;height:1rem;text-transform:uppercase;font-size:.9em;letter-spacing:.05em}.graphic__smooth .key__label p{position:absolute;line-height:1;height:1rem;padding-left:1px}.graphic__smooth .key__label .label__more{left:50px}.graphic__smooth .key__label .label__less{left:2px}#arrow path{fill:#999}.swoopy path{fill:none;stroke:#999}.swoopy text{fill:#2a2a2a;font-size:12px;stroke:none}.graphic__top{display:none}.graphic__top .outline--state{fill:none;stroke-width:2px;stroke:#fff;strok-opacity:.75}.logo__google{display:block;border:none;text-align:center}.logo__google svg{fill:#666;width:160px;height:21px}.intro{padding:2rem 3rem;background-color:#efefef}.intro__hed{font-size:2.5rem;margin:4rem auto 1rem;font-weight:100;text-align:center;max-width:50rem;line-height:1.2}.intro__dek{text-align:center;max-width:30rem;margin:1.5rem auto 3rem;font-weight:400;font-size:1.15rem;color:#333}.intro__text{max-width:35rem;margin:1rem auto;font-size:1rem}.intro__text a{color:#2868c1;font-weight:300;border-radius:2rem;border:none;background-color:#fff;padding:.05em .5em .2em;white-space:nowrap}.intro__text a:hover{color:#2868c1;background-color:rgba(40,104,193,.08)}.intro__text a:visited{color:#2868c1}.menu{font-size:.9rem;width:100%;background-color:#fff;position:relative;z-index:3000;transform:translate3d(0,0,0)}.menu:after{content:'';display:block;width:100%;position:absolute;left:0;bottom:-1rem;height:1rem}.menu.is-fixed{top:0;left:0;position:fixed}.menu ul{border-bottom:1px solid #ddd;width:95%;margin:0 auto;-ms-flex-wrap:wrap;flex-wrap:wrap;-ms-flex-pack:center;justify-content:center;display:none;padding:.5rem 0}.menu li{display:inline-block;margin:0 .4rem;padding:.2rem .8rem;background:#efefef;border-radius:2rem;color:#2a2a2a;font-size:.8rem;font-weight:400;cursor:pointer}.menu li:hover{background-color:#f4f4be}.mobile__menu{text-align:center;padding-top:.5rem}.mobile__menu select{text-transform:capitalize;letter-spacing:.05em;font-size:.9rem;font-weight:700;color:#666;height:2rem;border-radius:2px;margin-bottom:.5rem}body{background:#000;background:#fff;font-size:17px;font-family:Roboto,Helvetica,Arial,sans-serif;font-weight:300;line-height:1.6}a{color:#759d98;font-weight:500;border-bottom:1px dotted currentColor;text-decoration:none;transition:color .2s}a:hover{color:#5d827e}@media only screen and (min-width:25em){.hack{display:none}}@media only screen and (min-width:40em){.hack{display:none}footer{padding:2rem}.footer-social__preach{display:inline-block}.footer-social__icons{margin-top:0}}@media only screen and (min-width:50em){.hack{display:none}.graphic__narrative .film{-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:distribute;justify-content:space-around;max-width:1200px}.graphic__narrative .film__info{-ms-flex-order:0;order:0;margin:0 auto;min-width:360px;max-width:360px}.graphic__narrative .film__title{margin-bottom:3rem}.graphic__narrative .film__text span{background-color:#f4f4be}.graphic__narrative .film__text span:hover{background-color:#f9f}.graphic__narrative .film__text span.is-active{background-color:#f9f}.graphic__narrative .film__map{-ms-flex-order:1;order:1;margin-top:0}.graphic__narrative .film__youtube{text-align:left;display:block}.graphic__narrative .annotation__circle{-ms-transform:scale(1,1);transform:scale(1,1);box-shadow:inset 0 0 1em .25em rgba(255,0,255,.75);border:2px dashed #f0f}.graphic__regional .category{width:33.3%}.graphic__regional .film{width:100%}.graphic__regional .film__title{font-size:1.2rem}.logo__google{display:inline-block;text-align:left}.intro__hed{font-size:3.5rem;margin:8rem auto 1rem}}@media only screen and (min-width:60em){.hack{display:none}.graphic__categories .chart__choices{display:-ms-flexbox;display:flex}.graphic__categories .mobile__choices{display:none}.graphic__categories .chart__films{min-height:37rem}.graphic__categories .film{width:100%;width:25rem;max-width:25rem;padding:2rem 1rem}.graphic__categories .film__title{font-size:1.2rem}.graphic__narrative .map__below{-ms-flex-direction:row;flex-direction:row;-ms-flex-pack:justify;justify-content:space-between}.graphic__narrative .map__key{margin-bottom:0}.menu ul{display:-ms-flexbox;display:flex}.mobile__menu{display:none}}</style>
+	
+
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-87089723-3', 'auto');
+	  ga('send', 'pageview');
+	
+	</script>
+</head>
+<body>
+	<div class="intro">
+		<a class="logo__google" href="http://newslab.withgoogle.com">
+			<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 579 74.5" xml:space="preserve">
+<g>
+  <g>
+    <path class="st0" d="M57.1,31.8c0,7.8-2.4,14.2-7,18.9C44.9,56.2,37.9,59,29.3,59c-8.2,0-15.2-2.9-20.8-8.5
+      C2.9,44.8,0,37.8,0,29.5c0-8.3,2.9-15.3,8.5-21C14.2,2.9,21.2,0,29.3,0c4.1,0,8.1,0.7,11.7,2.2c3.7,1.5,6.7,3.6,9.1,6.2l0.1,0.2
+      l-5.5,5.5l-0.2-0.2c-1.7-2-3.9-3.7-6.6-4.8c-2.7-1.2-5.6-1.7-8.7-1.7c-6,0-11.2,2.1-15.3,6.3c-4.1,4.2-6.2,9.5-6.2,15.8
+      c0,6.3,2.1,11.7,6.2,15.8c4.1,4.2,9.3,6.3,15.3,6.3c5.5,0,10.1-1.6,13.8-4.6c3.6-3,5.7-7.2,6.3-12.5H29.1v-7.2h27.6l0,0.2
+      C57,29,57.1,30.4,57.1,31.8z"/>
+  </g>
+  <g>
+    <path class="st1" d="M92.4,26.3c-3.4-3.6-7.9-5.4-13.1-5.4c-5.3,0-9.7,1.8-13.2,5.4c-3.4,3.6-5.2,8.2-5.2,13.6
+      c0,5.5,1.7,10,5.2,13.6C69.6,57.2,74,59,79.3,59s9.7-1.8,13.1-5.4c3.5-3.5,5.3-8.1,5.3-13.6C97.7,34.5,95.9,29.9,92.4,26.3z
+       M79.3,52.4c-3.2,0-5.9-1.2-8-3.5c-2.2-2.3-3.2-5.3-3.2-9c0-3.7,1.1-6.7,3.2-9c2.2-2.3,4.9-3.5,8-3.5c3.1,0,5.8,1.2,8,3.5
+      c2.2,2.3,3.2,5.3,3.2,9c0,3.7-1.1,6.8-3.2,9C85.2,51.3,82.5,52.4,79.3,52.4z"/>
+  </g>
+  <g>
+    <path class="st2" d="M134.5,26.3c-3.4-3.6-7.9-5.4-13.1-5.4c-5.3,0-9.7,1.8-13.2,5.4c-3.4,3.6-5.2,8.2-5.2,13.6
+      c0,5.5,1.7,10,5.2,13.6c3.5,3.6,7.9,5.4,13.2,5.4c5.3,0,9.7-1.8,13.1-5.4c3.5-3.5,5.3-8.1,5.3-13.6
+      C139.7,34.5,137.9,29.9,134.5,26.3z M129.3,49c-2.2,2.3-4.9,3.5-8,3.5c-3.2,0-5.9-1.2-8-3.5c-2.2-2.3-3.2-5.3-3.2-9
+      c0-3.7,1.1-6.7,3.2-9c2.2-2.3,4.9-3.5,8-3.5s5.8,1.2,8,3.5c2.1,2.3,3.2,5.3,3.2,9C132.6,43.7,131.5,46.7,129.3,49z"/>
+  </g>
+  <g>
+    <path class="st0" d="M173.1,22.1v4.8c-1.2-1.8-2.9-3.2-5-4.3c-2.2-1.1-4.5-1.6-7.1-1.6c-4.7,0-8.7,1.9-12.1,5.6
+      c-3.3,3.7-5,8.2-5,13.5c0,5.3,1.7,9.8,5,13.6c3.3,3.6,7.4,5.5,12.1,5.5c2.5,0,4.9-0.5,7.1-1.7c2.1-1,3.8-2.5,5-4.3v3
+      c0,3.7-1,6.6-3,8.8c-2,2.1-4.7,3.2-8.2,3.2c-2.3,0-4.3-0.6-6.1-1.8c-1.7-1.2-2.9-2.8-3.6-4.8l-0.1-0.2l-6.7,2.8l0.1,0.2
+      c0.5,1.5,1.3,3,2.3,4.2c1,1.3,2.3,2.4,3.7,3.3c1.4,0.9,3,1.7,4.8,2.2c1.7,0.5,3.6,0.8,5.6,0.8c5.4,0,9.8-1.7,13.1-5
+      c3.2-3.2,4.9-7.8,4.9-13.5v-34H173.1z M154.3,31c2.1-2.3,4.7-3.5,7.8-3.5c3.1,0,5.8,1.2,7.8,3.5c2.1,2.3,3.2,5.4,3.2,9
+      c0,3.7-1.1,6.8-3.2,9c-2,2.3-4.6,3.4-7.8,3.4c-3.1,0-5.7-1.2-7.8-3.5c-2.1-2.3-3.2-5.3-3.2-9C151.1,36.3,152.2,33.3,154.3,31z"/>
+  </g>
+  <g>
+    <rect x="186.5" y="1.5" class="st3" width="7.1" height="56.3"/>
+  </g>
+  <g>
+    <path class="st1" d="M227.6,46.2c-1.1,2.3-3,4-5.5,5c-2.8,1.1-5.6,1.1-8.4,0c-2.7-1.1-4.7-3.2-6-6.1l25.8-10.2l-0.3-0.9
+      c-2.2-5.7-5.5-9.6-9.7-11.6c-4.2-2-8.8-2.1-13.7-0.2c-4.8,1.9-8.1,5.2-9.8,9.7c-1.7,4.6-1.6,9.4,0.4,14.5c2,5.1,5.3,8.7,9.8,10.8
+      c2.3,1.1,4.7,1.6,7.2,1.6c2.2,0,4.6-0.5,6.9-1.4c3.3-1.3,6-3.3,8.1-5.9c0.4-0.5,0.7-1,1.1-1.5l0.1-0.2l-5.8-3.8L227.6,46.2z
+       M224.3,32.1l-18.3,7.2c-0.3-2.4,0-4.7,1.1-6.6c1.1-2,2.8-3.5,5-4.4c2.7-1.1,5.2-1.2,7.4-0.4C221.7,28.7,223.3,30.1,224.3,32.1z"/>
+  </g>
+  <path class="st4" d="M271.2,57.6h-6.6V6h8.1l25.1,40.1h0.3l-0.3-9.9V6h6.6v51.6h-6.9l-26.2-42h-0.3l0.3,9.9V57.6z"/>
+  <path class="st4" d="M331.4,58.7c-5.2,0-9.5-1.8-12.8-5.3c-3.4-3.6-5-8-5-13.5c0-5.4,1.6-9.9,4.9-13.4c3.3-3.6,7.4-5.4,12.5-5.4
+    c5.2,0,9.4,1.7,12.5,5.1c3.1,3.4,4.6,8.1,4.6,14.2l-0.1,0.7h-27.7c0.1,3.5,1.2,6.2,3.5,8.4c2.2,2.1,4.8,3.2,7.9,3.2
+    c4.2,0,7.5-2.1,9.9-6.3l5.9,2.9c-1.6,3-3.8,5.3-6.6,7C338.1,57.9,334.9,58.7,331.4,58.7z M320.8,35.7H341c-0.2-2.4-1.2-4.5-3-6.1
+    c-1.8-1.6-4.2-2.4-7.2-2.4c-2.5,0-4.6,0.8-6.4,2.3C322.5,31,321.3,33.1,320.8,35.7z"/>
+  <path class="st4" d="M406.1,22.3l-11.4,35.3h-6.8l-8.8-27.1l-8.7,27.1h-6.7l-11.4-35.3h6.9l7.8,26.6h0.1l8.7-26.6h6.8l8.7,26.6h0.1
+    l7.8-26.6H406.1z"/>
+  <path class="st4" d="M439.7,47.8c0,3.1-1.3,5.7-4,7.8c-2.7,2.1-6.1,3.2-10.2,3.2c-3.6,0-6.7-0.9-9.4-2.8c-2.7-1.8-4.6-4.3-5.8-7.3
+    l5.9-2.5c0.9,2.1,2.1,3.8,3.8,4.9c1.7,1.2,3.5,1.8,5.4,1.8c2.1,0,3.9-0.5,5.3-1.4c1.4-0.9,2.1-2,2.1-3.2c0-2.3-1.7-3.9-5.2-5
+    l-6-1.5c-6.9-1.7-10.3-5-10.3-9.9c0-3.2,1.3-5.8,3.9-7.7c2.6-1.9,6-2.9,10-2.9c3.1,0,5.9,0.7,8.5,2.2c2.5,1.5,4.3,3.5,5.3,6
+    l-5.9,2.4c-0.7-1.5-1.8-2.7-3.3-3.5c-1.5-0.8-3.2-1.3-5.1-1.3c-1.7,0-3.3,0.4-4.6,1.3c-1.4,0.9-2.1,1.9-2.1,3.2
+    c0,2,1.9,3.5,5.7,4.3l5.3,1.4C436.2,38.9,439.7,42.5,439.7,47.8z"/>
+  <path class="st4" d="M494.1,57.6h-28.9V6h6.6v45.2h22.3V57.6z"/>
+  <path class="st4" d="M516.7,21.2c4.9,0,8.8,1.3,11.6,3.9c2.8,2.6,4.2,6.2,4.2,10.8v21.7h-6.3v-4.9H526c-2.7,4-6.4,6-10.9,6
+    c-3.9,0-7.1-1.2-9.8-3.5c-2.6-2.3-3.9-5.2-3.9-8.6c0-3.6,1.4-6.6,4.1-8.7c2.8-2.2,6.4-3.2,11.1-3.2c3.9,0,7.2,0.7,9.7,2.2v-1.5
+    c0-2.3-0.9-4.3-2.7-5.9c-1.8-1.6-4-2.4-6.4-2.4c-3.7,0-6.6,1.6-8.8,4.7l-5.8-3.7C505.7,23.5,510.5,21.2,516.7,21.2z M508.2,46.8
+    c0,1.7,0.7,3.2,2.2,4.3c1.5,1.2,3.2,1.7,5.1,1.7c2.8,0,5.3-1,7.5-3.1c2.2-2.1,3.3-4.5,3.3-7.3c-2.1-1.6-4.9-2.4-8.6-2.4
+    c-2.7,0-4.9,0.6-6.7,1.9C509.1,43.3,508.2,44.9,508.2,46.8z"/>
+  <path class="st4" d="M562.2,58.7c-2.6,0-5-0.6-7.1-1.7c-2.1-1.1-3.8-2.6-4.9-4.4h-0.3v4.9h-6.3V6h6.6v16.3l-0.3,4.9h0.3
+    c1.2-1.8,2.8-3.3,4.9-4.4c2.1-1.1,4.5-1.7,7.1-1.7c4.7,0,8.6,1.8,11.8,5.5c3.3,3.7,5,8.1,5,13.3c0,5.2-1.7,9.7-5,13.3
+    C570.8,56.9,566.8,58.7,562.2,58.7z M561.1,52.7c3.2,0,5.8-1.2,8-3.6c2.2-2.4,3.2-5.4,3.2-9.1c0-3.7-1.1-6.7-3.2-9.1
+    c-2.2-2.4-4.8-3.6-8-3.6c-3.2,0-5.9,1.2-8.1,3.6c-2.1,2.4-3.2,5.4-3.2,9.1c0,3.7,1.1,6.8,3.2,9.2C555.2,51.5,557.9,52.7,561.1,52.7
+    z"/>
+</g>
+</svg>
+		</a>
+		<h1 class="intro__hed">Mapping America’s Taste in Oscar Films</h1>
+		<p class="intro__dek">Where this year&#x27;s Oscar-nominated movies are most popular, across 3,000 U.S. counties</p>
+		<p class="intro__text">How does America watch movies? Do coastal audiences prefer action films? Do movie-goers in the south opt for films that mirror their experiences? We’ve mapped US movie tastes for this year’s Oscars nominees by analyzing YouTube trailer views in each movie’s opening week. View the most interesting trends for the best-picture nominees below, or <a href="#categories">skip ahead</a> to see the rest of the award categories.</p>
+	</div>	<main>
+		<div class="graphic__top">
+			<svg></svg>
+			<ul class="key"></ul>
+		</div>
+		<div class="graphic__smooth"></div>
+		<div class="graphic__narrative">
+			<div class="menu">
+				<ul>
+					<li>Hidden Figures</li>
+					<li>La La Land</li>
+					<li>Hell or High Water</li>
+					<li>Hacksaw Ridge</li>
+					<li>Arrival</li>
+					<li>Moonlight</li>
+					<li>Fences</li>
+					<li>Manchester By The Sea</li>
+					<li>Lion</li>
+				</ul>
+				<div class="mobile__menu">
+					<select>
+					<option>Select a film</option>
+						<option>Hidden Figures</option>
+						<option>La La Land</option>
+						<option>Hell or High Water</option>
+						<option>Hacksaw Ridge</option>
+						<option>Arrival</option>
+						<option>Moonlight</option>
+						<option>Fences</option>
+						<option>Manchester By The Sea</option>
+						<option>Lion</option>
+					</select>
+				</div>
+			</div>
+			<h2 class="film__title">Hidden Figures</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="77" data-y="41" data-size="4">Hidden Figures, based on the true story of the first black female supervisor at NASA and her struggle against racism, has the distinction of being the highest-grossing movie among the Best Picture nominees. It was exceptionally popular in the Southeast, with areas such as Atlanta and the Carolinas, particularly prominently represented. <span>Columbus, OH, where one of the film’s stars, Octavia Spencer, bought an entire film screening for disadvantaged families who wouldn’t otherwise be able to see the movie</span>, was also among the areas with the highest interest.</p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/5wfrDhgUMGI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/hidden_figures@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="PfOm4gJC4B" data-text="Mapping America’s Taste in Oscar Films: Hidden Figures"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/hidden_figures.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">La La Land</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="50" data-y="82" data-size="4">If there were any doubts that La La Land’s take on making it big in Los Angeles was a resounding success, one need only look at its record-breaking run at the Golden Globes, where the musical received a total of seven awards. It’s also up for 14 Oscars, tying the all-time nomination record with Titanic and All About Eve. The film tended to be popular in America’s urban centers, including the areas surrounding LA, New York, Washington, D.C., and other parts of the Northeast. <span>Another hotspot included Austin, TX, where a local weatherman and TV host helped recreate an iconic La La Land sequence in a YouTube video set on the city’s Lamar Boulevard Bridge</span>.</p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/0pdqf4P9MB8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/la_la_land@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="6Fb6NbYKci" data-text="Mapping America’s Taste in Oscar Films: La La Land"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/la_la_land.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">Hell or High Water</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="51" data-y="74" data-size="5">While La La Land was most popular among urban audiences, Hell or High Water, David Mackenzie’s tale of two West Texas brothers who rob banks to save the family ranch from foreclosure, found greatest resonance in rural areas. The Jeff Bridges-led cast saw its biggest fans spread across a thick swath of the Midwest, stretching north from Texas to Minnesota. <span>Bosque County, TX, the birthplace of Taylor Sheridan, the film’s writer, </span> as well as parts of Wyoming, where he currently lives, proved to be additional hotspots. New Mexico, where much of the movie was filmed, also showed disproportionately high interest.</p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/JQoqsKoJVDw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/hell_or_high_water@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="2Y9rFlG9s3" data-text="Mapping America’s Taste in Oscar Films: Hell or High Water"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/hell_or_high_water.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">Hacksaw Ridge</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="84.5" data-y="48.6" data-size="6">Mel Gibson’s World War II biopic about Desmond Doss, the conscientious objector who received a Medal of Honor despite his refusal to carry a weapon, was another favorite outside of America’s big cities. Doss was a Seventh-day Adventist, and the Pacific Northwest, where many Seventh-day Adventists live today, showed particular enthusiasm for the movie, in addition to parts of Minnesota, Wisconsin, and Michigan. <span>Virginia, where Doss grew up and decided to overtly reject violence at a young age, was another hotspot.</span></p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/s2-1hz1juBI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/hacksaw_ridge@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="fL1wbwfDbC" data-text="Mapping America’s Taste in Oscar Films: Hacksaw Ridge"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/hacksaw_ridge.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">Arrival</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="15" data-y="5" data-size="4">Amy Adams’ portrayal of a linguist tasked with communicating with alien visitors to Earth in Arrival is nominated for eight Oscars, and has been widely praised for its suspense, psychological explorations of its characters, and Adams’ strong performance. Despite the widely different subject matter, its fans are distributed most similarly to those of Hacksaw Ridge. In addition to the Pacific Northwest, where <span>Ted Chiang, the author of the short story that Arrival is based on, resides</span>, Virginia and Michigan showed the greatest interest. New England and Wyoming were also among the areas where the film saw the highest popularity.</p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/tFMo3UJ4B4g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/arrival@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="ZrCqhNfw33" data-text="Mapping America’s Taste in Oscar Films: Arrival"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/arrival.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">Moonlight</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="78" data-y="65" data-size="6">Moonlight, Barry Jenkins’ adaptation of Tarell Alvin McCraney’s autobiographical script,  poignantly and provocatively interweaves poverty and sexual identity across three decades in Liberty City, FL. Nominated for eight Oscars and having already won multiple awards (including Mahershala Ali’s Screen Actor’s Guild award for his supporting role), Moonlight has been most popular in the Northeast, as well as pockets of Delaware and Virginia.  <span>Georgia, where parts of the film take place, was another hotspot, particularly in the areas surrounding Atlanta.</span></p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/9NJj12tJzqc?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/moonlight@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="1UhL3fYQH5" data-text="Mapping America’s Taste in Oscar Films: Moonlight"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/moonlight.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">Fences</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="52" data-y="52" data-size="4">August Wilson’s play, with the brash, fast-talking Denzel Washington as a former Negro leagues player who fell short of making it to Major League Baseball, was most popular in Maine, and throughout pockets of the Midwest. <span>Kansas, the home state of Stephen McKinley Henderson, who plays the part of Washington’s best friend, was another region where Fences stood out in popularity</span>.</p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/spCxVd9ctFs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/fences@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="GFJTwLjDtL" data-text="Mapping America’s Taste in Oscar Films: Fences"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/fences.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">Manchester By The Sea</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="95" data-y="25.6" data-size="4">In Manchester by the Sea, director Kenneth Lonergan creates a widely-lauded depiction of grief and resilience in a small Massachusetts town. The movie, which led to Casey Affleck’s Golden Globe for Best Actor, has been especially popular in smaller New England counties akin to those portrayed in the film (the film’s namesake is a <span>small town of some 5,000 people</span>). Audiences in Los Angeles, and its surrounding areas, also had a higher degree of interest.</p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/gsVoD0pTge0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/manchester_by_the_sea@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="bfRhZSRDVP" data-text="Mapping America’s Taste in Oscar Films: Manchester By The Sea"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/manchester_by_the_sea.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+			<h2 class="film__title">Lion</h2>
+			<div class="film">
+				<div class="film__info">
+					<p class="film__text" data-x="31.8" data-y="53.2" data-size="4">Lion, the Dickensian story of a young Indian boy who loses himself in 1980s Calcutta before being adopted by Australian parents, is characterized by strong performances, with both Dev Patel and Nicole Kidman nominated for Best Supporting Actor/Actress Oscars. It’s one of the few movies that’s notable in its high popularity in Washington, D.C. and its surrounding counties, as well as the Four Corners, where New Mexico, Colorado, Arizona, and Utah meet and the <span>Navajo Nation territory is located.</span></p>
+					<div class="film__youtube">
+						<iframe width="320" height="180" src="https://www.youtube.com/embed/-RNI9o06vqo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+					</div>
+				</div>
+				<div class="film__map">
+					<div class="map__img">
+						<img src="assets/img/lion@2x.jpg">
+					</div>
+					<div class="map__below">
+						<div class="map__key">
+							<p class="key__hed">Popularity compared to national avg.</p>
+							<svg class="key__svg" width="250" height="9">
+								<rect width="35" height="9" x="0" y="0" fill="#f4f4be"></rect><rect width="50" height="9" x="52" y="0" fill="#b2caa9"></rect><rect width="50" height="9" x="104" y="0" fill="#759d98"></rect><rect width="50" height="9" x="156" y="0" fill="#40728b"></rect><rect width="50" height="9" x="208" y="0" fill="#134386"></rect>
+							</svg>
+							<div class="key__label">
+								<p class="label__less">Less</p><p class="label__more">More popular →</p>
+							</div>
+						</div>
+						<div class="map__tweet">
+							<a class="tweet__button" target="_blank" data-img="5gZmxTwYFM" data-text="Mapping America’s Taste in Oscar Films: Lion"><svg version="1.1" id="icon-twitter" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="20px" height="16.253px" viewBox="2.305 1.874 20 16.253" enable-background="new 2.305 1.874 20 16.253" xml:space="preserve" aria-labelledby="twitter-title twitter-desc">
+	<title id="twitter-title">Twitter</title>
+	<desc id="twitter-desc">Logo</desc>
+	<g>
+		<path d="M22.291,3.825c-0.572,0.841-1.258,1.556-2.05,2.126c0.017,0.129,0.017,0.302,0.017,0.525c0,1.111-0.156,2.206-0.475,3.301
+		c-0.319,1.093-0.809,2.14-1.46,3.161c-0.651,1.013-1.43,1.901-2.334,2.665c-0.92,0.763-2.014,1.366-3.285,1.842
+		c-1.273,0.477-2.635,0.701-4.096,0.682c-2.287,0-4.398-0.618-6.303-1.843c0.301,0.032,0.636,0.051,0.999,0.051
+		c1.904,0,3.602-0.588,5.096-1.763c-0.889-0.016-1.683-0.286-2.396-0.808c-0.7-0.538-1.174-1.207-1.444-2.03
+		c0.271,0.046,0.523,0.064,0.762,0.064c0.365,0,0.73-0.03,1.078-0.128c-0.934-0.189-1.729-0.668-2.364-1.414
+		C3.401,9.51,3.082,8.638,3.101,7.635V7.588C3.672,7.907,4.289,8.081,4.94,8.113C4.385,7.731,3.923,7.257,3.59,6.652
+		C3.26,6.065,3.101,5.415,3.101,4.7c0-0.745,0.19-1.43,0.571-2.081c1.029,1.269,2.269,2.285,3.729,3.033
+		c1.459,0.762,3.032,1.191,4.714,1.285c-0.064-0.318-0.095-0.634-0.095-0.936c0-1.143,0.396-2.111,1.206-2.921
+		c0.809-0.811,1.779-1.206,2.922-1.206c1.174,0,2.175,0.428,2.998,1.303c0.921-0.174,1.792-0.522,2.588-1
+		c-0.317,0.967-0.903,1.715-1.794,2.253c0.791-0.095,1.566-0.303,2.365-0.635L22.291,3.825z"/>
+	</g>
+</svg>
+ Share this map</a><a class="download__button" href="assets/download/lion.png" download>Download image</a> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="graphic__categories" id="categories">
+			<div class="categories__intro">
+				<h2 class="categories__hed">Oscars Award Categories</h2>
+				<p>Compare the regional popularity of each film for the major Oscars categories.</p>
+			</div>
+			<div class="categories__chart">
+				<ul class="chart__choices"></ul>
+				<div class="mobile__choices"><select class="chart__choices--mobile"></select></div>
+				<div class="chart__films"></div>
+			</div>
+		</div>		<div class="graphic__regional">
+			<div class="regional__intro">
+				<h2 class="regional__hed">Regional trends</h2>
+				<p>We’ve also noticed some broader regional differences between watching habits of the US coasts and the midwest:</p>
+			</div>
+			<div class="regional__chart">
+				<div class="chart__categories">
+		
+				</div>
+			</div>
+		</div> 	</main>
+ 	<footer>
+ 		<div class="footer-social">
+ 			<p class="footer-social__preach">Share this study</p>
+ 			<div class="footer-social__icons">
+ 				<div class="footer-social__icon fb-like" data-href="${url}" data-layout="button_count" data-action="like" data-size="large" data-show-faces="true" data-share="false"></div>
+ 					<div class="footer-social__icon">
+ 					<a href="https://twitter.com/share" data-size="large" class="twitter-share-button">Tweet</a>
+ 				</div>
+ 			</div>
+ 		</div>
+ 		<div id="fb-root"></div>
+ 		<div class="outro">
+ 			<p class="outro__hed">About</p>
+ 	  		<p>This project is a collaboration between the <a href="http://newslab.withgoogle.com/">Google News Lab</a> and <a href="http://polygraph.cool/">Polygraph</a>.</p>
+ 			<p class="outro__hed">Methodology</p>
+ 	  		<p>Some counties in the US, like Los Angeles or New York, have really high populations. Others are sparsely populated, like North Slope Borough in Alaska, which has one person for every 10 square miles of land. In order to control for population effects — to make sure our maps fairly indicated regional interest, rather than places where people watched the most YouTube videos — we looked at each movie’s trailers, and calculated what percentage they constituted of all US YouTube views in the film’s opening week. This gave us a national baseline. We then ran the same analysis for each county. Finally, to get a measure of county interest, we looked at the degree to which each county’s score exceeded or fell below the national average. Prior to mapping, we smoothed the data by calculating Getis-Ord Gi* z-scores for each county’s 20 nearest neighbours. <strong>So, to recap in English: we looked at whether a county’s viewing habits for each trailer were higher or lower than the rest of America.</strong></p>
+ 		</div>
+ 		<a class="logo__google" href="http://newslab.withgoogle.com">
+ 			<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 579 74.5" xml:space="preserve">
+<g>
+  <g>
+    <path class="st0" d="M57.1,31.8c0,7.8-2.4,14.2-7,18.9C44.9,56.2,37.9,59,29.3,59c-8.2,0-15.2-2.9-20.8-8.5
+      C2.9,44.8,0,37.8,0,29.5c0-8.3,2.9-15.3,8.5-21C14.2,2.9,21.2,0,29.3,0c4.1,0,8.1,0.7,11.7,2.2c3.7,1.5,6.7,3.6,9.1,6.2l0.1,0.2
+      l-5.5,5.5l-0.2-0.2c-1.7-2-3.9-3.7-6.6-4.8c-2.7-1.2-5.6-1.7-8.7-1.7c-6,0-11.2,2.1-15.3,6.3c-4.1,4.2-6.2,9.5-6.2,15.8
+      c0,6.3,2.1,11.7,6.2,15.8c4.1,4.2,9.3,6.3,15.3,6.3c5.5,0,10.1-1.6,13.8-4.6c3.6-3,5.7-7.2,6.3-12.5H29.1v-7.2h27.6l0,0.2
+      C57,29,57.1,30.4,57.1,31.8z"/>
+  </g>
+  <g>
+    <path class="st1" d="M92.4,26.3c-3.4-3.6-7.9-5.4-13.1-5.4c-5.3,0-9.7,1.8-13.2,5.4c-3.4,3.6-5.2,8.2-5.2,13.6
+      c0,5.5,1.7,10,5.2,13.6C69.6,57.2,74,59,79.3,59s9.7-1.8,13.1-5.4c3.5-3.5,5.3-8.1,5.3-13.6C97.7,34.5,95.9,29.9,92.4,26.3z
+       M79.3,52.4c-3.2,0-5.9-1.2-8-3.5c-2.2-2.3-3.2-5.3-3.2-9c0-3.7,1.1-6.7,3.2-9c2.2-2.3,4.9-3.5,8-3.5c3.1,0,5.8,1.2,8,3.5
+      c2.2,2.3,3.2,5.3,3.2,9c0,3.7-1.1,6.8-3.2,9C85.2,51.3,82.5,52.4,79.3,52.4z"/>
+  </g>
+  <g>
+    <path class="st2" d="M134.5,26.3c-3.4-3.6-7.9-5.4-13.1-5.4c-5.3,0-9.7,1.8-13.2,5.4c-3.4,3.6-5.2,8.2-5.2,13.6
+      c0,5.5,1.7,10,5.2,13.6c3.5,3.6,7.9,5.4,13.2,5.4c5.3,0,9.7-1.8,13.1-5.4c3.5-3.5,5.3-8.1,5.3-13.6
+      C139.7,34.5,137.9,29.9,134.5,26.3z M129.3,49c-2.2,2.3-4.9,3.5-8,3.5c-3.2,0-5.9-1.2-8-3.5c-2.2-2.3-3.2-5.3-3.2-9
+      c0-3.7,1.1-6.7,3.2-9c2.2-2.3,4.9-3.5,8-3.5s5.8,1.2,8,3.5c2.1,2.3,3.2,5.3,3.2,9C132.6,43.7,131.5,46.7,129.3,49z"/>
+  </g>
+  <g>
+    <path class="st0" d="M173.1,22.1v4.8c-1.2-1.8-2.9-3.2-5-4.3c-2.2-1.1-4.5-1.6-7.1-1.6c-4.7,0-8.7,1.9-12.1,5.6
+      c-3.3,3.7-5,8.2-5,13.5c0,5.3,1.7,9.8,5,13.6c3.3,3.6,7.4,5.5,12.1,5.5c2.5,0,4.9-0.5,7.1-1.7c2.1-1,3.8-2.5,5-4.3v3
+      c0,3.7-1,6.6-3,8.8c-2,2.1-4.7,3.2-8.2,3.2c-2.3,0-4.3-0.6-6.1-1.8c-1.7-1.2-2.9-2.8-3.6-4.8l-0.1-0.2l-6.7,2.8l0.1,0.2
+      c0.5,1.5,1.3,3,2.3,4.2c1,1.3,2.3,2.4,3.7,3.3c1.4,0.9,3,1.7,4.8,2.2c1.7,0.5,3.6,0.8,5.6,0.8c5.4,0,9.8-1.7,13.1-5
+      c3.2-3.2,4.9-7.8,4.9-13.5v-34H173.1z M154.3,31c2.1-2.3,4.7-3.5,7.8-3.5c3.1,0,5.8,1.2,7.8,3.5c2.1,2.3,3.2,5.4,3.2,9
+      c0,3.7-1.1,6.8-3.2,9c-2,2.3-4.6,3.4-7.8,3.4c-3.1,0-5.7-1.2-7.8-3.5c-2.1-2.3-3.2-5.3-3.2-9C151.1,36.3,152.2,33.3,154.3,31z"/>
+  </g>
+  <g>
+    <rect x="186.5" y="1.5" class="st3" width="7.1" height="56.3"/>
+  </g>
+  <g>
+    <path class="st1" d="M227.6,46.2c-1.1,2.3-3,4-5.5,5c-2.8,1.1-5.6,1.1-8.4,0c-2.7-1.1-4.7-3.2-6-6.1l25.8-10.2l-0.3-0.9
+      c-2.2-5.7-5.5-9.6-9.7-11.6c-4.2-2-8.8-2.1-13.7-0.2c-4.8,1.9-8.1,5.2-9.8,9.7c-1.7,4.6-1.6,9.4,0.4,14.5c2,5.1,5.3,8.7,9.8,10.8
+      c2.3,1.1,4.7,1.6,7.2,1.6c2.2,0,4.6-0.5,6.9-1.4c3.3-1.3,6-3.3,8.1-5.9c0.4-0.5,0.7-1,1.1-1.5l0.1-0.2l-5.8-3.8L227.6,46.2z
+       M224.3,32.1l-18.3,7.2c-0.3-2.4,0-4.7,1.1-6.6c1.1-2,2.8-3.5,5-4.4c2.7-1.1,5.2-1.2,7.4-0.4C221.7,28.7,223.3,30.1,224.3,32.1z"/>
+  </g>
+  <path class="st4" d="M271.2,57.6h-6.6V6h8.1l25.1,40.1h0.3l-0.3-9.9V6h6.6v51.6h-6.9l-26.2-42h-0.3l0.3,9.9V57.6z"/>
+  <path class="st4" d="M331.4,58.7c-5.2,0-9.5-1.8-12.8-5.3c-3.4-3.6-5-8-5-13.5c0-5.4,1.6-9.9,4.9-13.4c3.3-3.6,7.4-5.4,12.5-5.4
+    c5.2,0,9.4,1.7,12.5,5.1c3.1,3.4,4.6,8.1,4.6,14.2l-0.1,0.7h-27.7c0.1,3.5,1.2,6.2,3.5,8.4c2.2,2.1,4.8,3.2,7.9,3.2
+    c4.2,0,7.5-2.1,9.9-6.3l5.9,2.9c-1.6,3-3.8,5.3-6.6,7C338.1,57.9,334.9,58.7,331.4,58.7z M320.8,35.7H341c-0.2-2.4-1.2-4.5-3-6.1
+    c-1.8-1.6-4.2-2.4-7.2-2.4c-2.5,0-4.6,0.8-6.4,2.3C322.5,31,321.3,33.1,320.8,35.7z"/>
+  <path class="st4" d="M406.1,22.3l-11.4,35.3h-6.8l-8.8-27.1l-8.7,27.1h-6.7l-11.4-35.3h6.9l7.8,26.6h0.1l8.7-26.6h6.8l8.7,26.6h0.1
+    l7.8-26.6H406.1z"/>
+  <path class="st4" d="M439.7,47.8c0,3.1-1.3,5.7-4,7.8c-2.7,2.1-6.1,3.2-10.2,3.2c-3.6,0-6.7-0.9-9.4-2.8c-2.7-1.8-4.6-4.3-5.8-7.3
+    l5.9-2.5c0.9,2.1,2.1,3.8,3.8,4.9c1.7,1.2,3.5,1.8,5.4,1.8c2.1,0,3.9-0.5,5.3-1.4c1.4-0.9,2.1-2,2.1-3.2c0-2.3-1.7-3.9-5.2-5
+    l-6-1.5c-6.9-1.7-10.3-5-10.3-9.9c0-3.2,1.3-5.8,3.9-7.7c2.6-1.9,6-2.9,10-2.9c3.1,0,5.9,0.7,8.5,2.2c2.5,1.5,4.3,3.5,5.3,6
+    l-5.9,2.4c-0.7-1.5-1.8-2.7-3.3-3.5c-1.5-0.8-3.2-1.3-5.1-1.3c-1.7,0-3.3,0.4-4.6,1.3c-1.4,0.9-2.1,1.9-2.1,3.2
+    c0,2,1.9,3.5,5.7,4.3l5.3,1.4C436.2,38.9,439.7,42.5,439.7,47.8z"/>
+  <path class="st4" d="M494.1,57.6h-28.9V6h6.6v45.2h22.3V57.6z"/>
+  <path class="st4" d="M516.7,21.2c4.9,0,8.8,1.3,11.6,3.9c2.8,2.6,4.2,6.2,4.2,10.8v21.7h-6.3v-4.9H526c-2.7,4-6.4,6-10.9,6
+    c-3.9,0-7.1-1.2-9.8-3.5c-2.6-2.3-3.9-5.2-3.9-8.6c0-3.6,1.4-6.6,4.1-8.7c2.8-2.2,6.4-3.2,11.1-3.2c3.9,0,7.2,0.7,9.7,2.2v-1.5
+    c0-2.3-0.9-4.3-2.7-5.9c-1.8-1.6-4-2.4-6.4-2.4c-3.7,0-6.6,1.6-8.8,4.7l-5.8-3.7C505.7,23.5,510.5,21.2,516.7,21.2z M508.2,46.8
+    c0,1.7,0.7,3.2,2.2,4.3c1.5,1.2,3.2,1.7,5.1,1.7c2.8,0,5.3-1,7.5-3.1c2.2-2.1,3.3-4.5,3.3-7.3c-2.1-1.6-4.9-2.4-8.6-2.4
+    c-2.7,0-4.9,0.6-6.7,1.9C509.1,43.3,508.2,44.9,508.2,46.8z"/>
+  <path class="st4" d="M562.2,58.7c-2.6,0-5-0.6-7.1-1.7c-2.1-1.1-3.8-2.6-4.9-4.4h-0.3v4.9h-6.3V6h6.6v16.3l-0.3,4.9h0.3
+    c1.2-1.8,2.8-3.3,4.9-4.4c2.1-1.1,4.5-1.7,7.1-1.7c4.7,0,8.6,1.8,11.8,5.5c3.3,3.7,5,8.1,5,13.3c0,5.2-1.7,9.7-5,13.3
+    C570.8,56.9,566.8,58.7,562.2,58.7z M561.1,52.7c3.2,0,5.8-1.2,8-3.6c2.2-2.4,3.2-5.4,3.2-9.1c0-3.7-1.1-6.7-3.2-9.1
+    c-2.2-2.4-4.8-3.6-8-3.6c-3.2,0-5.9,1.2-8.1,3.6c-2.1,2.4-3.2,5.4-3.2,9.1c0,3.7,1.1,6.8,3.2,9.2C555.2,51.5,557.9,52.7,561.1,52.7
+    z"/>
+</g>
+</svg>
+ 		</a>
+ 	</footer>
+ 	
+ 	<script>(function(d, s, id) {
+ 	  var js, fjs = d.getElementsByTagName(s)[0];
+ 	  if (d.getElementById(id)) return;
+ 	  js = d.createElement(s); js.id = id;
+ 	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+ 	  fjs.parentNode.insertBefore(js, fjs);
+ 	}(document, 'script', 'facebook-jssdk'));</script>
+ 	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+ 	<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+ 	
+	<script src="bundle.js?version=1487767488917"></script>
+</body>
+</html>
